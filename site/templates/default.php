@@ -13,11 +13,13 @@
     <h1><?= $page->title()->html() ?></h1>
 
     <aside>
+      <ul id="pageindex">
+      </ul>
     </aside>
 
   </header>
 
-  <article>
+  <article id="article">
     <p><?= $page->text()->kirbytext() ?></p>
   </article>
 

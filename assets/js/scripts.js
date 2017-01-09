@@ -1,6 +1,12 @@
 $(document).ready(function() {
   
   
+  // build pageindex
+  $('#article h2').each(function() {
+    $('#pageindex').append('<li><a href="#' + $(this).attr('id') + '">' + $(this).html() + '</a></li>');
+  });
+
+  
   // scripts for smooth in-page anchor scrolling
   $('a[href^=#]').click(function(e) {
     e.preventDefault();
@@ -10,7 +16,6 @@ $(document).ready(function() {
       $target = '#wrapper';
       off = 0;
     }
-    console.log(off);
     $($target).ScrollTo({
       duration: 500,
       animation: 'ease',
@@ -105,15 +110,14 @@ $(document).ready(function() {
 
   
 $(window).resize(function() {
-    alignMenuItems();
+  alignMenuItems();
 });
-
 
 
 function alignMenuItems() {
 
   $active = $('ul#menu > li > a.active');
-  if($active) {
+  if($active.length > 0) {
     pointerPos = $active.offset().left-$('nav').offset().left + ($active.width())/2;
     $('.pointer').css('left',pointerPos);
   }

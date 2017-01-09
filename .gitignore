@@ -1,0 +1,8 @@
+# Kirby folders
+/site/accounts
+/site/cache
+/thumbs
+
+site/accounts/daniel.php
+
+site/accounts/.logins

@@ -70,7 +70,12 @@ a {
 a:hover {
 	border-bottom-color: #f63; /*#8ecdc2;*/
 }
-
+p + p {
+	margin-top: 1rem;
+}
+p + h2 {
+	margin-top: 4rem;
+}
 
 
 /* --- layout --- */

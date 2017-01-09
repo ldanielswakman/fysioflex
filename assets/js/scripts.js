@@ -111,13 +111,12 @@ $(window).resize(function() {
 
 
 function alignMenuItems() {
-  $('ul#menu a').each(function() {
-    if ($(this).text() === '') {
-      $(this).addClass('active');
-      pointerPos = $(this).offset().left-$('nav').offset().left + ($(this).width())/2;
-      $('.pointer').css('left',pointerPos);
-    }
-  });
+
+  $active = $('ul#menu > li > a.active');
+  if($active) {
+    pointerPos = $active.offset().left-$('nav').offset().left + ($active.width())/2;
+    $('.pointer').css('left',pointerPos);
+  }
   
   $('ul.submenu').each(function() {
     mainMenuItem = $(this).attr('id');

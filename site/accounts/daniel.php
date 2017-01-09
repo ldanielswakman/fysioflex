@@ -6,3 +6,5 @@ password: >
 email: hello@ldaniel.eu
 language: en
 role: admin
+history:
+  - home

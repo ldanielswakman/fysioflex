@@ -1,13 +1,21 @@
-Title: Kirby Starterkit
+Title: Fysio Flex
 
 ----
 
-Author: Bastian Allgeier GmbH
+Description: Fysio Flex, centrum voor fysiotherapie en bewegen
 
 ----
 
-Description: This is Kirby's Starterkit.
+Logo: 
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Address: Floralaan 77 6708 EH Wageningen
+
+----
+
+Telephone: tel: 0317-413057
+
+----
+
+Email: info@fysio-flex.nl

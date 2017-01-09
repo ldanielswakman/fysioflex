@@ -2,9 +2,15 @@
 
 <div id="content">
 
-  <header style="background-image: url('images/banner_<? // page image URL ?>.jpg');"<? // if ($page["id"] == '00') { echo ' class="banner-home"'; } ?>>
+  <?
+  $banner_url = '';
+  if ($image = $page->banner_image()) {
+    $banner_url = thumb($page->image($image), ['width' => 800])->url();
+  }
+  ?>
+  <header style="background-image: url(<?= $banner_url ?>);"<? e($page->isHome(), ' class="banner-home"') ?>>
 
-    <h1><? //title ?></h1>
+    <h1><?= $page->title()->html() ?></h1>
 
     <aside>
     </aside>
@@ -12,7 +18,7 @@
   </header>
 
   <article>
-    <p>Test!</p>
+    <p><?= $page->text()->kirbytext() ?></p>
   </article>
 
 </div>

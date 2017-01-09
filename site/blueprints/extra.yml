@@ -1,5 +1,6 @@
-title: Page
+title: Extra
 pages: false
+icon: plus-circle
 
 fields:
   title: title

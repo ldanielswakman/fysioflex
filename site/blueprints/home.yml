@@ -1,0 +1,14 @@
+title: Page
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  banner_image: 
+    label: Banner image
+    type: image
+
+  text:
+    label: Text
+    type:  markdown

@@ -6,10 +6,6 @@ Description: Fysio Flex, centrum voor fysiotherapie en bewegen
 
 ----
 
-Logo: 
-
-----
-
 Address: Floralaan 77 6708 EH Wageningen
 
 ----

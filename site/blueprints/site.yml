@@ -1,4 +1,10 @@
-title: Page
+title: Site options
+pages:
+  template:
+    - over
+    - fysiotherapie
+    - extra
+    - informatie
 
 fields:
   title:
@@ -10,6 +16,10 @@ fields:
     type:  textarea
     buttons:
 
+  headline1:
+    label: Footer opties
+    type: headline
+
   address:
     label: Adres
     type: text
@@ -19,7 +29,9 @@ fields:
     label: Telefoonnumer
     type: text
     icon: phone
+    width: 1/2
 
   email:
     label: Email adres
     type: email
+    width: 1/2

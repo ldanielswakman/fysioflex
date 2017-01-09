@@ -1,0 +1,13 @@
+Title: Het gebouw
+
+----
+
+Type: 0
+
+----
+
+Banner-image: banner_gebouw.jpg
+
+----
+
+Text: Sinds 1 januari 2006 zijn wij gevestigd in de voormalige Apostolische Kerk aan de Floralaan in Wageningen. Hier kunnen wij beschikken over 5 behandelkamers en een ruime oefenzaal van 100m² die is voorzien van diverse fitness apparaten en oefenmaterialen. Dit biedt ons de mogelijkheid tot het oefenen in groepsverband of sportspecifieke revalidatie waarbij looptraining vereist is. Tevens is de oefenzaal voorzien van kleedruimten.

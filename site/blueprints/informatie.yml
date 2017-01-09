@@ -1,5 +1,6 @@
-title: Page
+title: Informatie
 pages: false
+icon: info
 
 fields:
   title: title

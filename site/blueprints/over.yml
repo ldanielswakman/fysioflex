@@ -1,5 +1,6 @@
-title: Page
+title: Over
 pages: false
+icon: user
 
 fields:
   title: title

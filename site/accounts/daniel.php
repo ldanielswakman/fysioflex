@@ -7,4 +7,7 @@ email: hello@ldaniel.eu
 language: en
 role: admin
 history:
+  - zwangerfit
+  - het-gebouw
+  - medewerkers
   - home

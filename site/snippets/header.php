@@ -50,4 +50,4 @@
 
       <div class="menu-static"></div>
 
-    </div>
+      <? snippet('nav') ?>

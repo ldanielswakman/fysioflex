@@ -16,11 +16,11 @@
 
     <?
     $css_assets = (c::get('env') === 'DEV') ? array(
+      'assets/css/magnific-popup.css',
       'assets/css/style.css',
-      'assets/css/magnific-popup.css'
     ) : array(
+      'assets/css/magnific-popup.css',
       'assets/css/style.css',
-      'assets/css/magnific-popup.css'
     );
 
     $js_assets = (c::get('env') === 'DEV') ? array(

@@ -1,0 +1,20 @@
+Title: Foto's
+
+----
+
+Banner-image: 
+
+----
+
+Text: 
+
+(image: 01_thumb.jpg link: 01.jpg linkclass: magnific-popup-image)
+(image: 02_thumb.jpg link: 02.jpg linkclass: magnific-popup-image)
+(image: 03_thumb.jpg link: 03.jpg linkclass: magnific-popup-image)
+(image: 04_thumb.jpg link: 04.jpg linkclass: magnific-popup-image)
+(image: 05_thumb.jpg link: 05.jpg linkclass: magnific-popup-image)
+(image: 06_thumb.jpg link: 06.jpg linkclass: magnific-popup-image)
+(image: 07_thumb.jpg link: 07.jpg linkclass: magnific-popup-image)
+(image: 08_thumb.jpg link: 08.jpg linkclass: magnific-popup-image)
+(image: 09_thumb.jpg link: 09.jpg linkclass: magnific-popup-image)
+(image: 10_thumb.jpg link: 10.jpg linkclass: magnific-popup-image)

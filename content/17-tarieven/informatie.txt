@@ -1,0 +1,25 @@
+Title: Tarieven 2016
+
+----
+
+Banner-image: banner_tarieven.jpg
+
+----
+
+Text: 
+
+De tarieven die wij binnen onze praktijk in 2016 hanteren zijn als volgt:
+
+<table>
+<tr><td>Zitting</td><td style="width: 80px;">€29,75</td></tr>
+<tr><td>Zitting en onderzoek na screening</td><td>€36,28</td></tr>
+<tr><td>Intake en onderzoek na verwijzing</td><td>€36,28</td></tr>
+<tr><td>Screening</td><td>€10,40</td></tr>
+<tr><td>Zitting bekkenfysiotherapie</td><td>€39,75</td></tr>
+<tr><td>Toeslag behandeling aan huis</td><td>€12,00</td></tr>
+<tr><td>Toeslag behandeling in inrichting</td><td>€6,00</td></tr>
+<tr><td>Telefonische zitting</td><td>€10,00</td></tr>
+<tr><td>Lange zitting voor pati&euml;nten met complexe zorgvragen</td><td>€39,75</td></tr>
+<tr><td>Eenmalig fysiotherapeutisch onderzoek</td><td>€50,25</td></tr>
+<tr><td>Niet nagekomen afspraak</td><td>€29,75</td></tr>
+</table>

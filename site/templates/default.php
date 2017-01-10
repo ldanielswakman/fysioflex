@@ -8,13 +8,12 @@
     $banner_url = thumb($page->image($image), ['width' => 800])->url();
   }
   ?>
-  <header style="background-image: url(<?= $banner_url ?>);"<? e($page->isHome(), ' class="banner-home"') ?>>
+  <header style="background-image: url(<?= $banner_url ?>);"<? e($page->isHomePage(), ' class="banner-home"') ?>>
 
     <h1><?= $page->title()->html() ?></h1>
 
     <aside>
-      <ul id="pageindex">
-      </ul>
+      <ul id="pageindex"></ul>
     </aside>
 
   </header>

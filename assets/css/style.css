@@ -71,17 +71,29 @@ a:hover {
 	border-bottom-color: #f63; /*#8ecdc2;*/
 }
 ul + p,
+ol + p,
 p + p,
-p + ul {
+p + ul,
+p + ol {
 	margin-top: 1rem;
 }
 p + h2,
-ul + h2 {
+ul + h2,
+ol + h2 {
 	margin-top: 4rem;
 }
 p + h3,
-ul + h3 {
+ul + h3,
+ol + h3 {
 	margin-top: 2.5rem;
+}
+::-moz-selection {
+  background-color: #667;
+  color: #fff;
+}
+::selection {
+  background-color: #667;
+  color: #fff;
 }
 
 
@@ -303,9 +315,23 @@ p, article ul, article table {
 }
 article ol {
 	font-family: MuseoSans-300;
-	font-size: 1em;
-	line-height: 200%;
-	letter-spacing: 0.1em;
+	font-size: 1.25em;
+	line-height: 1.45em;
+	margin-left: 25px;
+	list-style: none;
+	counter-reset: ordered-list-counter;
+}
+article ol li {
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+article ol li:before {
+	content: counter(ordered-list-counter);
+	counter-increment: ordered-list-counter;
+	position: absolute;
+	left: -25px;
+	top: 0;
+	color: #f63;
 }
 article table {
 	margin-top: 20px;
@@ -330,6 +356,9 @@ article ul li:before {
 }
 article ul li {
 	padding: 3px 0px;
+}
+article ol li {
+	/*color: #f63;*/
 }
 article .accent {
 	color: #f63; /* 8ecdc2 */

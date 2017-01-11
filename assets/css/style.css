@@ -88,11 +88,11 @@ ol + h3 {
 	margin-top: 2.5rem;
 }
 ::-moz-selection {
-  background-color: #667;
+  background-color: #f63;
   color: #fff;
 }
 ::selection {
-  background-color: #667;
+  background-color: #f63;
   color: #fff;
 }
 

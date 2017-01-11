@@ -10,4 +10,49 @@ Banner-image:
 
 ----
 
-Text: Links!
+Text: 
+
+### FysioNet - Koninklijk Nederlands Genootschap voor Fysiotherapie
+(link: http://www.fysionet.nl/ popup: yes text: http://www.fysionet.nl/)
+
+### Fysiotherapie Startpagina
+(link: http://fysiotherapie.startpagina.nl/ popup: yes text: http://fysiotherapie.startpagina.nl/)
+
+### De Fysiotherapeut - Vind een fysiotherapeut
+(link: http://www.defysiotherapeut.com/ popup: yes text: http://www.defysiotherapeut.com/)
+
+### Fysiostart
+(link: http://www.fysiostart.nl/ popup: yes text: http://www.fysiostart.nl/)
+
+### Startkabel: Fysiotherapie
+(link: http://fysiotherapie.startkabel.nl/ popup: yes text: http://fysiotherapie.startkabel.nl/)
+
+### Kenniscentrum Paramedische Zorg
+(link: http://www.paramedisch.org/ popup: yes text: http://www.paramedisch.org/)
+
+### Fysiovergoeding.nl
+(link: http://zorgvergoeding.com/news.php popup: yes text: http://zorgvergoeding.com/news.php)
+
+### Fysioweb - De startpagina voor fysiotherapeuten
+(link: http://www.fysioweb.nl/ popup: yes text: http://www.fysioweb.nl/)
+
+### BIG-register
+(link: http://www.bigregister.nl/ popup: yes text: http://www.bigregister.nl/)
+
+### Ministerie van Volksgezondheid, Welzijn en Sport
+(link: http://www.rijksoverheid.nl/ministeries/vws popup: yes text: http://www.rijksoverheid.nl/ministeries/vws)
+
+### Kwaliteitsregister Paramedici
+(link: http://www.kwaliteitsregisterparamedici.nl/default.aspx popup: yes text: http://www.kwaliteitsregisterparamedici.nl/default.aspx)
+
+### MedLog - Staat van de gezondheidszorg
+(link: http://www.geneeskunde.com/ popup: yes text: http://www.geneeskunde.com/)
+
+### Medische Startpagina
+(link: http://www.medischestartpagina.nl/ popup: yes text: http://www.medischestartpagina.nl/)
+
+### Klachtenregeling
+(link: http://www.defysiotherapeut.com popup: yes text: www.defysiotherapeut.com)
+
+### Wet op de geneeskundige behandelovereenkomst (WGBO)
+(link: http://www.dwangindezorg.nl popup: yes text: www.dwangindezorg.nl)

@@ -1,0 +1,38 @@
+Title: Contact
+
+----
+
+Type: 
+
+----
+
+Banner-image: banner_contact.jpg
+
+----
+
+Text: 
+
+## Adres
+Fysio Flex
+Floralaan 77
+6708 EH Wageningen
+
+(tel: 0317-413057)
+(fax: 0317-428922)
+(link: www.fysio-flex.nl popup:yes text: www.fysio-flex.nl)
+(email: info@fysio-flex.nl)
+
+## Openingstijden
+
+<table>
+<tr><td>Maandag</td><td>8.00 - 18.00</td></tr>
+<tr><td>Dinsdag</td><td>8.00 - 21.00</td></tr>
+<tr><td>Woensdag</td><td>8.00 - 12.00</td></tr>
+<tr><td>Donderdag</td><td>8.00 - 18.30</td></tr>
+<tr><td>Vrijdag</td><td>8.00 - 18.00</td></tr>
+</table>
+
+Aangezien wij ook patiënten aan huis behandelen, kan het zijn dat er niet altijd iemand aanwezig is.
+
+## Routebeschrijving
+Ons centrum bevindt zich op de hoek van de Floralaan met de Haverlanden. Zie bovenstaand kaartje, voor een routebeschrijving verwijzen wij u door naar (link: https://goo.gl/maps/VgEdTbnyukH2 popup:yes text:Google Maps).

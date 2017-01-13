@@ -16,10 +16,6 @@ fields:
     type:  textarea
     buttons:
 
-  headline1:
-    label: Footer opties
-    type: headline
-
   address:
     label: Adres
     type: text

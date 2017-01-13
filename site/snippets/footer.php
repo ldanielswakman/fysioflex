@@ -2,8 +2,8 @@
         <? $next = ($page->isHomePage()) ? $site->pages()->first() : $page->nextVisible() ?>
         <? if(strlen($next) > 0): ?>
           <a href="<?= $next->url() ?>" class="footer__followup">
-            <span>Begin:</span>
-            <?= $site->pages()->first()->title() ?>
+            <span><?= e($page->isHomePage(), ' Begin:', ' Volgende:') ?></span>
+            <?= $next->title() ?>
           </a>
         <? endif ?>
 

@@ -411,6 +411,16 @@ footer {
 	color: #999;
 	background-color: #fff;
 }
+footer .footer__followup {
+	display: block;
+	padding: 2rem 0;
+	background-color: #ddd;
+	font-size: 1.25rem;
+	text-align: center;
+}
+footer .footer__followup span {
+	color: #999;
+}
 footer .footer_menu {
 	padding: 20px 0px;
 	border-bottom: 1px solid #ccc;

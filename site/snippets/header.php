@@ -17,22 +17,21 @@
     <?
     $css_assets = (c::get('env') === 'DEV') ? array(
       'assets/css/magnific-popup.css',
-      'assets/css/style.css',
     ) : array(
-      'assets/css/magnific-popup.css',
-      'assets/css/style.css',
+      'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.8/magnific-popup.min.css',
     );
+    array_push($css_assets, 'assets/css/style.css');
 
     $js_assets = (c::get('env') === 'DEV') ? array(
       'assets/js/jquery.js',
       'assets/js/jquery.scrollto.js',
-      'assets/js/scripts.js',
+      'assets/js/jquery.magnific-popup.min.js'
     ) : array(
-      'assets/js/jquery.js',
-      'assets/js/jquery.scrollto.js',
-      'assets/js/jquery.magnific-popup.min.js',
-      'assets/js/scripts.js',
+      'https://code.jquery.com/jquery-1.8.3.min.js',
+      'https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollto/1.3.0/jquery-scrollto.min.js',
+      'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.8/jquery.magnific-popup.min.js'
     );
+    array_push($js_assets, 'assets/js/scripts.js');
     ?>
 
     <?= css($css_assets) ?>

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="author" content="L Daniel Swakman, ldaniel.eu" />
-    <meta http-equiv="Cache-control" content="public">
+    <meta http-equiv="Cache-control" content="max-age=2628000, public">
 
     <title>
       <?= $page->title()->html() ?> - <?= $site->title()->html() ?>

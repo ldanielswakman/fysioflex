@@ -37,6 +37,8 @@
     <?= css($css_assets) ?>
     <?= js($js_assets) ?>
 
+    <? snippet('ga-analytics'); ?>
+
   </head>
 
   <body>

@@ -2,10 +2,6 @@ Title: Welkom
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
-
-----
-
 Text: <span class="accent">Dit is de website van Fysio Flex, centrum voor fysiotherapie en bewegen. Hier kunt u kennismaken met onze praktijk en informatie vinden betreffende fysiotherapie en onze nevenactiviteiten.</span>
 
 ----

@@ -24,6 +24,7 @@ Widgets (on Panel Dashboard)
 c::set('panel.widgets', array(
   'account'  => true,
   'history'  => true,
-  'pages'    => true,
+  'pages'    => false,
+  'pages2'    => true,
   'site'     => false,
 ));

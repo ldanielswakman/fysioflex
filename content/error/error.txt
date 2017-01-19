@@ -1,0 +1,9 @@
+Title: Error
+
+----
+
+Text: 
+
+# Oeps! Er is iets foutgegaan.
+
+Klik waar je heen wil via het menu, of...

@@ -1,0 +1,9 @@
+title: Error page
+pages: false
+files: false
+
+fields:
+  title: 
+    extends: title
+    width: 1/1
+  text: text

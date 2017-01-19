@@ -461,8 +461,15 @@ footer ul#footermenu a, footer ul.footersubmenu a {
 	color: #999;
 	padding: 2px 0px;
 }
-footer ul#footermenu a:hover , footer ul.footersubmenu a:hover {
+footer ul#footermenu a:hover,
+footer ul.footersubmenu a:hover,
+footer ul.footersubmenu a.active:hover {
 	color: #001;
+	border-bottom: 2px solid #f63;
+}
+footer ul.footersubmenu a.active {
+	color: #666;
+	border-bottom: 2px solid #999;
 }
 footer .info {
 	display: block;

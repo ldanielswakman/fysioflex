@@ -51,7 +51,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
   <?php foreach($redirects as $k => $name): ?>
   <url>
-    <?= $p = $site->find($name) ?>
+    <? $p = $site->find($name) ?>
     <loc><?= $site->url() ?>/?page=<?= $k ?></loc>
     <lastmod><?= $p->modified('Y-m-d') ?></lastmod>
     <priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.5/$p->depth(), 1) ?></priority>

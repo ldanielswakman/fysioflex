@@ -79,10 +79,15 @@ c::set('routes', array(
         if( $get == '23' ) { $target = 'klachtenregeling'; }
         if( $get == '24' ) { $target = 'wgbo'; }
 
-      }
+        // go to targeted page
+        return go($target);
 
-      // go to page
-      return go($target);
+      } else {
+
+        // go to homepage
+        return site()->visit('');
+
+      }
 
     }),
 ));

@@ -46,7 +46,7 @@
             <a href="mailto:<?= $site->email() ?>" class="email-link" target="_blank"><?= $site->email() ?></a>
           </span>
           <span>
-            <a href="mailto:<?= $site->facebook() ?>" class="email-link" target="_blank">Facebook</a>
+            <a href="<?= $site->facebook() ?>" class="email-link" target="_blank">Facebook</a>
           </span>
           <span><a href="http://www.ldaniel.eu" target="_blank">by ldaniel.eu</a></span>
         </div>

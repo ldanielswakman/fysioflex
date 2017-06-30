@@ -62,7 +62,7 @@ $(document).ready(function() {
   $(window).scroll(function() {
     scroll = $(window).scrollTop();
     navY = $('.menu-static').offset().top;
-    asideY = $('aside').offset().top;
+    asideY = ($('aside').length > 0) ? $('aside').offset().top : 0;
     
     if (scroll >= navY) {
       $('ul.submenu').each(function() {
@@ -73,7 +73,7 @@ $(document).ready(function() {
       
       $('nav').addClass('floating');
       
-      asideX = $('aside').offset().left;
+      asideX = ($('aside').length > 0) ? $('aside').offset().left : 0;
       $('aside').css('position','fixed');
       $('aside').css('top','135px');
       $('aside').css('left',asideX);

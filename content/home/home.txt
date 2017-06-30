@@ -2,7 +2,12 @@ Title: Welkom
 
 ----
 
-Text: <span class="accent">Dit is de website van Fysio Flex, centrum voor fysiotherapie en bewegen. Hier kunt u kennismaken met onze praktijk en informatie vinden betreffende fysiotherapie en onze nevenactiviteiten.</span>
+Text: 
+
+<span class="accent">Dit is de website van Fysio Flex, centrum voor fysiotherapie en bewegen. Hier kunt u kennismaken met onze praktijk en informatie vinden betreffende fysiotherapie en onze nevenactiviteiten.</span>
+
+Voor updates en laatste nieuws, volg onze (link: https://www.facebook.com/fysioflexwageningen/ text: Facebookpagina):
+(facebook-follow-button: https://www.facebook.com/fysioflexwageningen/)
 
 ----
 

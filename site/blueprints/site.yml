@@ -20,6 +20,7 @@ fields:
     label: Adres
     type: text
     icon: map-marker
+    width: 1/2
 
   telephone: 
     label: Telefoonnumer
@@ -30,4 +31,9 @@ fields:
   email:
     label: Email adres
     type: email
+    width: 1/2
+
+  facebook:
+    label: Facebook link
+    type: url
     width: 1/2
